@@ -1,0 +1,46 @@
+<div class="container"><h1>Alterar Cadastro</h1></div>
+
+<form action="/alterar-cadastroUsuario/{{dadosUsuario.id}}" method="POST">
+<div class="container">
+
+    <div class="form-group col-lg-6">
+    <label>Nome Completo:</label><br>
+    <input type="text" class="form-control" placeholder="Nome Completo" name="nome" value="{{dadosUsuario.nome}}">
+    </div>
+
+    <div class="form-group col-lg-6">
+    <label>CRM:</label>
+   <input type="text" class="form-control" placeholder="CRM" name="crm" value="{{dadosUsuario.crm}}">
+   </div><br>
+    
+    <div class="form-group col-lg-6">
+    <label>Telefone:</label>
+    <input type="text" class="form-control" placeholder="(99)99999-9999" name="telefone" value="{{dadosUsuario.telefone}}">
+    </div><br>
+
+    <div class="form-group col-lg-6">
+    <label>Estado:</label>
+    <input type="text" class="form-control" placeholder="Estado" name="estado" value="{{dadosUsuario.estado}}">
+    </div><br>
+
+    <div class="form-group col-lg-6">
+    <label>Cidade:</label>
+    <input type="text" class="form-control" placeholder="Cidade" name="cidade" value="{{dadosUsuario.cidade}}">
+    </div><br>
+
+    <div class="form-group col-lg-6">
+    <label>Especialidades:</label>
+    <input type="text" class="form-control" placeholder="Especialidades" name="especialidades" value="{{dadosUsuario.especialidades}}">
+    </div><br>  
+</div>
+
+
+    <div class="container">
+        
+        <a href="/del-consulta/{{dadosUsuario.id}}"><button type="button" class="btn btn-danger">Apagar</button></a></div>
+    </a>
+
+    <div class="container"><a><button type="submit" class="btn btn-primary">Confirmar</button></a></div>
+ 
+
+    </form> 

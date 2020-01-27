@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "cadastromedico",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anderson Zanin",
+  "license": "ISC",
+  "dependencies": {
+    "array": "^0.4.3",
+    "body-parser": "^1.19.0",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.3",
+    "jquery": "^3.2.1",
+    "moment": "^2.24.0",
+    "multiple-select": "^1.5.2",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.1.0",
+    "php": "0.0.1",
+    "select2": "^4.0.12",
+    "sequelize": "^5.21.3",
+    "sequelize-express-findbyid": "^1.0.7",
+    "slim-select": "^1.25.0"
+  }
+}
