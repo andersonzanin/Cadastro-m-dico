@@ -12,7 +12,7 @@
     "array": "^0.4.3",
     "body-parser": "^1.19.0",
     "express-handlebars": "^3.1.0",
-    "handlebars": "^4.5.3",
+    "handlebars": "^4.7.7",
     "jquery": "^3.2.1",
     "moment": "^2.24.0",
     "multiple-select": "^1.5.2",
